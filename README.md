@@ -21,9 +21,9 @@ p1 is member of A and p2 is member of B. The output should contain the minimum n
   | ------------- | --------- |
   | input: 3 2 4  |           |
   | 1      1      |           |
-  | 2      1      | output: 3 |
+  | 2      1      |           |
   | 3      1      |           |
-  | 3      2      |           |
+  | 3      2      | output: 3 |
   
-  - strassen_multiplication_recursive.py
-  - osmnx_dijkstra_pathfinding.ipynb
+  - strassen_multiplication_recursive.py -> Recursive function for multiplication of square matrices of rank of type 2^n where n is a positive integer using Strassen's algorithm.
+  - osmnx_dijkstra_pathfinding.ipynb -> Pathfinding using dijkstra's algorithm implemented from scratch for networkx nodes in osmnx for finding shortest path between two locations.
