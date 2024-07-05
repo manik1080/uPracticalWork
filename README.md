@@ -14,14 +14,21 @@ between the rooms of the delegates, so that everyone is connected with at least 
 every connection is made between people that can negotiate. The CEO also wants to minimize the amount of telephone connections.
 Write a program which given M, N, K and K pairs of representatives, finds the minimum number of needed connections.
 
-The first line of the input contains M, N and K. The following K lines contain the chosen pairs in the form of two integers p1 and p2,
+  The first line of the input contains M, N and K. The following K lines contain the chosen pairs in the form of two integers p1 and p2,
 p1 is member of A and p2 is member of B. The output should contain the minimum number of needed telephone connections.
 
-Sample Input/Output:
-input: 
-3 2 4
-1 1
-2 1
-3 1
-3 2
+  Sample Input/Output:
+  input: 
+  
+  3 2 4
+  
+  1 1
+  
+  2 1
+  
+  3 1
+  
+  3 2
+
 output: 3
+  - strassen
